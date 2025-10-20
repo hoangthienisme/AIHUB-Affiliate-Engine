@@ -1,0 +1,6 @@
+@AIHUB_Affiliate_Engine_HostAddress = http://localhost:5123
+
+GET {{AIHUB_Affiliate_Engine_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
