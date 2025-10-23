@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AIHUB Affiliate Engine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+438b7ccdf91265e3868f67496c2ab955cc4c0c86")]
 [assembly: System.Reflection.AssemblyProductAttribute("AIHUB Affiliate Engine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AIHUB Affiliate Engine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
