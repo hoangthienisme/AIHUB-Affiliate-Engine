@@ -4,14 +4,16 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-COPY AIHUB_Affiliate_Engine/AIHUB_Affiliate_Engine.csproj AIHUB_Affiliate_Engine/
+# Copy file csproj vào container
+COPY ./AIHUB_Affiliate_Engine/AIHUB_Affiliate_Engine.csproj ./AIHUB_Affiliate_Engine/
 
 # Restore dependencies
 RUN dotnet restore "AIHUB_Affiliate_Engine/AIHUB_Affiliate_Engine.csproj"
 
+# Copy toàn bộ source code
 COPY . .
 
-# Build và publish ra thư mục /app/publish
+# Build & publish ra thư mục /app/publish
 WORKDIR /src/AIHUB_Affiliate_Engine
 RUN dotnet publish -c Release -o /app/publish
 
