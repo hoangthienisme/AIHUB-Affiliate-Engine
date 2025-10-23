@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\AIHUB-Affiliate-Engine\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACD714A2-A2DA-4BC5-A2C2-A186C7D812AC}|AIHUB_Affiliate_Engine\\AIHUB_Affiliate_Engine.csproj|d:\\aihub-affiliate-engine\\aihub_affiliate_engine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACD714A2-A2DA-4BC5-A2C2-A186C7D812AC}|AIHUB_Affiliate_Engine\\AIHUB_Affiliate_Engine.csproj|solutionrelative:aihub_affiliate_engine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACD714A2-A2DA-4BC5-A2C2-A186C7D812AC}|AIHUB_Affiliate_Engine\\AIHUB_Affiliate_Engine.csproj|d:\\aihub-affiliate-engine\\aihub_affiliate_engine\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ACD714A2-A2DA-4BC5-A2C2-A186C7D812AC}|AIHUB_Affiliate_Engine\\AIHUB_Affiliate_Engine.csproj|solutionrelative:aihub_affiliate_engine\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\AIHUB-Affiliate-Engine\\AIHUB_Affiliate_Engine\\appsettings.json",
+              "RelativeDocumentMoniker": "AIHUB_Affiliate_Engine\\appsettings.json",
+              "ToolTip": "D:\\AIHUB-Affiliate-Engine\\AIHUB_Affiliate_Engine\\appsettings.json",
+              "RelativeToolTip": "AIHUB_Affiliate_Engine\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-23T03:38:19.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\AIHUB-Affiliate-Engine\\AIHUB_Affiliate_Engine\\Program.cs",
+              "RelativeDocumentMoniker": "AIHUB_Affiliate_Engine\\Program.cs",
+              "ToolTip": "D:\\AIHUB-Affiliate-Engine\\AIHUB_Affiliate_Engine\\Program.cs",
+              "RelativeToolTip": "AIHUB_Affiliate_Engine\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T03:37:56.943Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

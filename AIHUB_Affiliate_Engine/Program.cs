@@ -1,32 +1,37 @@
-using AIHUB_Affiliate_Engine.Data;
+﻿using AIHUB_Affiliate_Engine.Data;
 using Microsoft.EntityFrameworkCore;
-using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 builder.Services.AddDbContext<AffiliateDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("AffiliateDb"))
 );
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// --------------------
+// ✅ Always enable Swagger (for Render)
+app.UseSwagger();
+app.UseSwaggerUI();
 
-app.UseHttpsRedirection();
-
+// ✅ Disable HTTPS redirect (Render handles HTTPS at proxy)
 app.UseAuthorization();
-
 app.MapControllers();
+
+// ✅ Allow Render port binding
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+app.Urls.Add($"http://0.0.0.0:{port}");
+
+// ✅ Optional: redirect root to Swagger
+app.MapGet("/", context =>
+{
+    context.Response.Redirect("/swagger");
+    return Task.CompletedTask;
+});
 
 app.Run();

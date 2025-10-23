@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AIHUB_Affiliate_Engine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d030f1bc28404b4466d7f24e96e1b3b2b1b75ffc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f055d3df09c24290bed66f443bab6bc7a911e3c")]
 [assembly: System.Reflection.AssemblyProductAttribute("AIHUB_Affiliate_Engine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AIHUB_Affiliate_Engine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
