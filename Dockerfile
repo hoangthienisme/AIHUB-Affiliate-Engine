@@ -6,8 +6,6 @@ WORKDIR /src
 
 # Copy file csproj riêng để cache restore layer
 COPY AIHUB_Affiliate_Engine/AIHUB_Affiliate_Engine.csproj AIHUB_Affiliate_Engine/
-
-# Restore dependencies
 RUN dotnet restore "AIHUB_Affiliate_Engine/AIHUB_Affiliate_Engine.csproj"
 
 # Copy toàn bộ source
