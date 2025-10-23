@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+0rp/5uLylI=",
+  "dgSpecHash": "+x6G2QiXJ3E=",
   "success": true,
-  "projectFilePath": "D:\\AIHUB Affiliate Engine\\AIHUB Affiliate Engine\\AIHUB Affiliate Engine.csproj",
+  "projectFilePath": "D:\\AIHUB-Affiliate-Engine\\AIHUB_Affiliate_Engine\\AIHUB_Affiliate_Engine.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

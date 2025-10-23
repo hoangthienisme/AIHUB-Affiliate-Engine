@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\AIHUB_Affiliate_Engine.props" />
+</Project>

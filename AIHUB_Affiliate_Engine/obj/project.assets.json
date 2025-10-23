@@ -5231,11 +5231,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AIHUB Affiliate Engine\\AIHUB Affiliate Engine\\AIHUB Affiliate Engine.csproj",
-      "projectName": "AIHUB Affiliate Engine",
-      "projectPath": "D:\\AIHUB Affiliate Engine\\AIHUB Affiliate Engine\\AIHUB Affiliate Engine.csproj",
+      "projectUniqueName": "D:\\AIHUB-Affiliate-Engine\\AIHUB_Affiliate_Engine\\AIHUB_Affiliate_Engine.csproj",
+      "projectName": "AIHUB_Affiliate_Engine",
+      "projectPath": "D:\\AIHUB-Affiliate-Engine\\AIHUB_Affiliate_Engine\\AIHUB_Affiliate_Engine.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "D:\\AIHUB Affiliate Engine\\AIHUB Affiliate Engine\\obj\\",
+      "outputPath": "D:\\AIHUB-Affiliate-Engine\\AIHUB_Affiliate_Engine\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
