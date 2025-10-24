@@ -28,11 +28,11 @@ AIHUB Affiliate Engine là dịch vụ Affiliate Tracking System cho phép:
 ---
 
 ##  Features
-✅ Affiliate tracking  
-✅ Save click information (IP, UserAgent, Referer)  
-✅ Create conversion from external partner  
-✅ CRUD đối tác, chiến dịch  
-✅ Swagger UI để test API
+ Affiliate tracking  
+ Save click information (IP, UserAgent, Referer)  
+ Create conversion from external partner  
+ CRUD đối tác, chiến dịch  
+ Swagger UI để test API
 
 ---
 
@@ -57,12 +57,12 @@ AIHUB_Affiliate_Engine/
 
 ##  Setup Local Dev
 
-### 1️⃣ Clone source
+### 1️ Clone source
 ```sh
 git clone https://github.com/yourrepo/AIHUB_Affiliate_Engine.git
 cd AIHUB_Affiliate_Engine
 
-2️⃣ Update database connection
+2️ Update database connection
 
 File appsettings.json:
 
@@ -70,10 +70,10 @@ File appsettings.json:
   "AffiliateDb": "Host=localhost;Port=5432;Database=AffiliateDB;Username=postgres;Password=yourpassword"
 }
 
-3️⃣ Run migration
+3️ Run migration
 dotnet ef database update
 
-4️⃣ Run API
+4️ Run API
 dotnet run
 
 
@@ -92,8 +92,8 @@ App tự expose cổng theo Render env:
 var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
 app.Urls.Add($"http://0.0.0.0:{port}");
 
-📘 API Documentation
-1️⃣ Create Click
+ API Documentation
+1️ Create Click
 
 POST /api/click
 
@@ -112,7 +112,7 @@ Response
   "status": "success"
 }
 
-2️⃣ Create Conversion
+2️ Create Conversion
 
 POST /api/conversion
 
@@ -129,12 +129,12 @@ Response:
   "commission": 10.00
 }
 
-3️⃣ List Clicks
+3️ List Clicks
 
 GET /api/click
 
  System Flow & Diagram
-✅ Affiliate Tracking Flow
+ Affiliate Tracking Flow
 User Clicks Affiliate Link
         │
         ▼
@@ -146,10 +146,10 @@ User Purchases → Conversion API → Calculate Commission → Save Result
         ▼
 Partner Dashboard → View Report
 
-✅ ERD (mô tả thực thể)
+ ERD (mô tả thực thể)
 Affiliate (1) ──── (∞) Clicks ──── (∞) Conversions
 
-✅ Future Improvements
+ Future Improvements
 
 JWT Authentication
 
