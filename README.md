@@ -1,4 +1,3 @@
-README.md (đề xuất hoàn chỉnh)
 # AIHUB Affiliate Engine
 
 AIHUB Affiliate Engine là dịch vụ Affiliate Tracking System cho phép:
