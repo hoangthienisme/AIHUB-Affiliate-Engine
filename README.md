@@ -23,9 +23,45 @@ AIHUB Affiliate Engine là dịch vụ Affiliate Tracking System cho phép:
 | ORM | Entity Framework Core |
 | Auth | (TBD nếu có OAuth/JWT) |
 | Deploy | Render Cloud |
-f5
+##  Features
+ Affiliate tracking  
+ Save click information (IP, UserAgent, Referer)  
+ Create conversion from external partner  
+ CRUD đối tác, chiến dịch  
+ Swagger UI để test API
 
+---
 
+##  Project Structure
+
+AIHUB_Affiliate_Engine/
+│── Controllers/
+│ ├── AffiliateController.cs
+│ ├── ClickController.cs
+│ ├── ConversionController.cs
+│── Data/
+│ ├── AffiliateDbContext.cs
+│── Entities/
+│
+│── appsettings.json
+│── Program.cs
+---
+
+##  Setup Local Dev
+
+### 1️ Clone source
+```
+git clone https://github.com/hoangthienisme/AIHUB_Affiliate_Engine.git
+cd AIHUB_Affiliate_Engine
+2️ Update database connection
+File appsettings.json:
+"ConnectionStrings": {
+  "AffiliateDb": "Host=localhost;Port=5432;Database=AffiliateDB;Username=postgres;Password=yourpassword"
+}
+3️ Run migration
+dotnet ef database update
+4️ Run API
+dotnet run
 Mở Swagger:
 
 https://localhost:7157/swagger
